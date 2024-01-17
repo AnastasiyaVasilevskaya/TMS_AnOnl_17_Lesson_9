@@ -1,7 +1,9 @@
 package shapes;
 
 public class Triangle extends Shape {
-    double a, b, c;
+    double a;
+    double b;
+    double c;
 
     public Triangle(double a, double b, double c) {
         this.a = a;
@@ -16,6 +18,5 @@ public class Triangle extends Shape {
 
     double calculatePerimeter() {
         return a + b + c;
-
     }
 }
