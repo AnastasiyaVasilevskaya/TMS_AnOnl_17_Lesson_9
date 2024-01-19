@@ -12,6 +12,4 @@ abstract class Document {
     }
 
     abstract void displayInfo();
-
-
 }

@@ -17,5 +17,6 @@ public class ContractEmployee extends Document {
         System.out.println("Контракт c сотрудником: ");
         System.out.println("Номер документа и имя сотрудника : " + docNumber + " " + employeeName);
         System.out.println("Дата документа и дата окончания контракта : " + docDate + " " + docDateEnd);
+        System.out.println();
     }
 }

@@ -17,5 +17,6 @@ public class FinancialInvoice extends Document {
         System.out.println("Финансовая накладная : ");
         System.out.println("Номер документа и дата : " + docNumber + " " + docDate);
         System.out.println("Код департамента, итоговая сумма за месяц : " + departmentKod + ", " + totalSumMonth);
+        System.out.println();
     }
 }
