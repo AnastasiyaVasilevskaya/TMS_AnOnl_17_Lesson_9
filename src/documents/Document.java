@@ -1,5 +1,9 @@
 package documents;
 
+import exceptions.ContainsAcException;
+import exceptions.EndsWith1a2bException;
+import exceptions.StartsWith555Exception;
+
 import java.util.Date;
 
 abstract class Document {
@@ -12,4 +16,8 @@ abstract class Document {
     }
 
     abstract void displayInfo();
+
+    public void validateDocumentNumber() throws ContainsAcException, StartsWith555Exception, EndsWith1a2bException {
+        DocumentValidator.validateDocumentNumber(docNumber);
+    }
 }
